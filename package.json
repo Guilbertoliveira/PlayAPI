@@ -1,0 +1,16 @@
+{
+  "name": "aluraplay-requisicoes-main",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"> <img src=\"https://imgur.com/J3hD21O.png\" alt=\"Javascript: criando requisições\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  },
+  "devDependencies": {}
+}
