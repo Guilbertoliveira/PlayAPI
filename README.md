@@ -1,5 +1,21 @@
-# PlayAPI
-Project with knowledge in Javascript, CSS, Nodejs
+
+
+
+<h2>:hammer:Project Status:hammer:</h2>
+<p>PlayAPI</p>
+
+<h2>Project description</h2>
+<p>Project with knowledge in Javascript, CSS, Nodejs</p>
+
+<h2 >Version Mobile</h2>
+
+<h2>Version Desktop</h2>
+
+<h2>Technologies used</h2>
+    
+<h2> Project link </h2>
+
+
 
 <ol>
 <li>Install Node.Js on your machine</li>
