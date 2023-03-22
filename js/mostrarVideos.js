@@ -1,12 +1,12 @@
 import { funçõesexportadas } from "./conectionAPI.js";
-const lista = document.querySelector("[data-lista]");
 
+const listacampo = document.querySelector("[data-lista]");
 
 
 listaVideos();
 
 function constroiCard(video, titulo, imagem, descricao){
-    lista.innerHTML += `
+    listacampo.innerHTML += `
         <li class="videos__item">
         <iframe width="100%" height="72%" src=${video}
             title=${titulo} frameborder="0"
@@ -28,3 +28,15 @@ async function listaVideos(){ //utilizando função importada
         constroiCard(element.url, element.titulo, element.imagem, element.descricao);
     });
 }
+
+export const funcaoMostrar = {
+    constroiCard
+}
+
+
+
+
+
+
+
+
