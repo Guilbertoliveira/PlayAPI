@@ -1,4 +1,4 @@
-import { conectaApi } from "./conectionAPI.js";
+import { funçõesexportadas } from "./conectionAPI.js";
 const lista = document.querySelector("[data-lista]");
 
 
@@ -22,7 +22,7 @@ function constroiCard(video, titulo, imagem, descricao){
 }
 
 async function listaVideos(){ //utilizando função importada
-    const listaAPI = await conectaApi.listaVideos();
+    const listaAPI = await funçõesexportadas.listaVideosDaAPI();
     listaAPI.forEach(element => {
         console.table(element)
         constroiCard(element.url, element.titulo, element.imagem, element.descricao);

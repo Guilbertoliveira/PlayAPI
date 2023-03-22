@@ -1,9 +1,10 @@
 
 
-listaVideos()
+listaVideosDaAPI()
 
 
-async function listaVideos(){
+
+async function listaVideosDaAPI(){
     const conexao = await fetch('http://localhost:3000/videos');
     const conexaoConvertida = await conexao.json();
     console.log(conexaoConvertida);
@@ -11,26 +12,24 @@ async function listaVideos(){
     return conexaoConvertida;
 }
 
-async function criaVideo(titulo, descricao, url, imagem){
+async function criaVideo(chegoutitulo, chegoudescricao, chegouurl, chegouimagem){
     const conexao = await fetch('http://localhost:3000/videos', {
         method: "POST",
         headers: { //content-type especificar que tipo de arquivo ta sendo enviado ou recebendo
-            "content-type": "aplicacation/json"
+            "Content-type": "application/json"
         }, 
         body: JSON.stringify({ // corpo da requisicao, enviando um objeto porém como é requisição precisa ser string
-            titulo: titulo, //dados que queremos cadastrar na requisicao
-            descricao: `${descricao} mil visualizações`,
-            url: url,
-            imagem: imagem
+            titulo: chegoutitulo, //dados que queremos cadastrar na requisicao
+            descricao: `${chegoudescricao} mil visualizações`,
+            url: chegouurl,
+            imagem: chegouimagem
         })
     });
 
-    const conexaoConvertida = await conexao.json();
-    return conexaoConvertida;
 }
 
-export const conectaApi = {
-    listaVideos,
+export const funçõesexportadas = {
+    listaVideosDaAPI,
     criaVideo
 }
 
