@@ -1,8 +1,12 @@
 
-
+<h2 align="center">PlayAPI</h2>
+<div align="center">
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Guilbertoliveira/PlayAPI" />
+<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Guilbertoliveira/PlayAPI" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Guilbertoliveira/PlayAPI" />
+<img alt="Github License" src="https://img.shields.io/github/license/Guilbertoliveira/PlayAPI" /> </div>
 
 <h2>:hammer:Project Status:hammer:</h2>
-<p>PlayAPI</p>
 
 <h2>Project description</h2>
 <p>Project with knowledge in Javascript, CSS, Nodejs</p>
