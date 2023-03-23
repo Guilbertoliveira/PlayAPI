@@ -42,4 +42,4 @@
 <h2>Improvements made</h2>
 <li>Search field is dynamic, no need to click the button.</li>
 <li>Error handling (url in search field).</li>
-<li>Correction in header</li>
+<li>Correction in header, version mobile</li>
