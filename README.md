@@ -13,9 +13,9 @@
 <p>Project with knowledge in Javascript, CSS, Nodejs</p>
 
 <h2 >Version Mobile</h2>
-
+<img src="https://user-images.githubusercontent.com/41201436/227271973-057a6028-e882-4b76-8716-92e480319e68.png">
 <h2>Version Desktop</h2>
-
+<img src="https://user-images.githubusercontent.com/41201436/227271493-00f05480-1bd5-452a-a13b-a79d18ca5210.png">
 <h2>Technologies used</h2>
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="40" width="55" title="HTML 5" />
@@ -40,6 +40,7 @@
 <a href="https://github.com/typicode/json-server#getting-started">Link here<a/>
 
 <h2>Improvements made</h2>
+
 <li>Search field is dynamic, no need to click the button.</li>
 <li>Error handling (url in search field).</li>
 <li>Correction in header, version mobile</li>
