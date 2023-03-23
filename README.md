@@ -13,7 +13,8 @@
 <p>Project with knowledge in Javascript, CSS, Nodejs</p>
 
 <h2 >Version Mobile</h2>
-<img src="https://user-images.githubusercontent.com/41201436/227271973-057a6028-e882-4b76-8716-92e480319e68.png">
+<img src="https://user-images.githubusercontent.com/41201436/227272524-38ee76ca-4c50-4e27-8a5f-b4ab2ecc5bf9.gif">
+
 <h2>Version Desktop</h2>
 <img src="https://user-images.githubusercontent.com/41201436/227271493-00f05480-1bd5-452a-a13b-a79d18ca5210.png">
 <h2>Technologies used</h2>
