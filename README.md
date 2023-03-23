@@ -7,6 +7,7 @@
 <img alt="Github License" src="https://img.shields.io/github/license/Guilbertoliveira/PlayAPI" /> </div>
 
 <h2>:hammer:Project Status:hammer:</h2>
+<p>Completed project</p>
 
 <h2>Project description</h2>
 <p>Project with knowledge in Javascript, CSS, Nodejs</p>
@@ -26,7 +27,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" width="55" title="NodeJs" />
           </div>   
 <h2> Project link </h2>
-
+<a href="https://play-api-ten.vercel.app/"> Vercel Link </a>
 
 <h2>how to use Node.JS</h2>
 <ol>
@@ -37,3 +38,7 @@
 
 <h2>Json-Server documentation</h2>
 <a href="https://github.com/typicode/json-server#getting-started">Link here<a/>
+
+<h2>Improvements made</h2>
+<li>Search field is dynamic, no need to click the button.</li>
+<li>Error handling (url in search field).</li>
