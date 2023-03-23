@@ -13,8 +13,12 @@ async function submitVideo(){
    const imagem =  document.querySelector('[data-imagem]').value;
    const descricao = Math.floor(Math.random()*10).toString();
 
+try{
    await funçõesexportadas.criaVideo(titulo, descricao, url, imagem);
 
    window.location.href = "../pages/envio-concluido.html"; //indo para outra pagina via javascript
+  } catch (error) { //erro esta na linha 24 do conectionAPI.js
+    alert(error);
+  }
 }
 

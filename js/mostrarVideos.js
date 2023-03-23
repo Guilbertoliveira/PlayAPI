@@ -22,11 +22,15 @@ function constroiCard(video, titulo, imagem, descricao){
 }
 
 async function listaVideos(){ //utilizando função importada
-    const listaAPI = await funçõesexportadas.listaVideosDaAPI();
-    listaAPI.forEach(element => {
-        console.table(element)
-        constroiCard(element.url, element.titulo, element.imagem, element.descricao);
-    });
+    try{
+        const listaAPI = await funçõesexportadas.listaVideosDaAPI();
+        listaAPI.forEach(element => {
+        console.table(element);
+        constroiCard(element.url, element.titulo, element.imagem, element.descricao);});
+    }
+    catch{
+       listacampo.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vídeo</h2>`;  
+    }
 }
 
 export const funcaoMostrar = {

@@ -24,6 +24,9 @@ async function criaVideo(chegoutitulo, chegoudescricao, chegouurl, chegouimagem)
             imagem: chegouimagem
         })
     });
+    if (!conexao.ok){
+        throw new Error("Não foi possivel enviar o vídeo");
+    }
 
 }
 
