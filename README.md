@@ -10,7 +10,7 @@
 <p>Completed project</p>
 
 <h2>Project description</h2>
-<p>Project with knowledge in Javascript, CSS, Nodejs</p>
+<p>Project with knowledge in Javascript, CSS, Node.js</p>
 
 <h2 >Version Mobile</h2>
 <img src="https://user-images.githubusercontent.com/41201436/227272524-38ee76ca-4c50-4e27-8a5f-b4ab2ecc5bf9.gif">
